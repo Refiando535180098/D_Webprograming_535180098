@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div{
+                border: 3px solid #4caf50;
+                padding: 5px;
+            }
+            .img1{
+                float: right;
+            }
+            .clearfix{
+                overflow: auto
+            }
+            .img2{
+                float: right;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p>dalam contoh ini, gambar lebih tinggi dari elemen yang memuatnya, dan itu di floatkan, sehingga
+            overflow dari penampungnya:
+        </p>
+        <div>
+            <img class="img1" src="windmill.jpg" alt="windmill.jpg" width="170" height="170">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </div>
+        <p style="clear:right">Tambahkan kelas clearfix dengan overflow: auto; ke elemen yang mengandung,
+            untuk memperbaiki masalah ini:
+        </p>
+        <div class="clearfix">
+            <img class="img2" src="windmill.jpg" alt="windmill.jpg" width="170" height="170">
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.
+        </div>
+    </body>
+</html>
