@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Introduction</title>
+    <script>
+        var hobbies = [];
+        function AddHooby(pHobby){
+            hobbies.push(pHobby);
+            document.getElementById("iHooby").value = ""; //untuk membersihkan input
+            document.getElementById("iHooby").focus(); //untuk memindahkan kursor ke hobby
+            }
+        function InLoop(){
+            var item;
+            document.getElementById("oResult").innerHTML = "";
+            for (item of hobbies) {
+                document.getElementById("oResult").innerHTML += item + <br/>;                
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="iHooby" placeholder="Add Your Hooby" style="width : 500px">
+    <button type="button" onclick='AddHooby(document.getElementById("iHooby").value)'>Add</button>
+    <button type="button" onclick='InLoop()'>Show All</button>
+    <br><br>
+    <p id="oResult"></p>
+</body>
+</html>

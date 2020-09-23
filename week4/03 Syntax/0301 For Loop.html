@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Introduction</title>
+    <script>
+        var str="Lorem ipsum dolor sit amet, consectetur adipiscing elit.";
+        function ForLoop(iteration){
+            for (i = 0; i = iteration; i++) {
+                document.getElementById("oResult").innerHTML += str + "<br/>";
+                //document.getElementById("oResult").innerHTML = document.getElementById("oResult").innerHTML += str + "<br/>";
+            }
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="iLoop" placeholder="Type Number of iteration" style="width : 500px">
+    <button type="button" onclick='ForLoop(document.getElementById("iLoop").value)'>Go</button>
+    <p id="oResult"></p>
+</body>
+</html>

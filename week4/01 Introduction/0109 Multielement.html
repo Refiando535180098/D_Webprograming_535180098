@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Introduction</title>
+    <style>
+        .Makered {color: red;}
+        .hide {visibility: hidden;}
+        .show {visibility: visible;}
+    </style>
+    <script>
+        function ChangeAll(str){
+            document.getElementById(cLine1).innerHTML = str;
+            document.getElementById(cLine2).innerHTML = str;
+            document.getElementById(cLine1).className = "Makered";
+            document.getElementById(cLine2).className = "Makered";
+        }
+    </script>
+</head>
+<body>
+    <p id="cLine1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <br>
+    <p id="cLine2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <br>
+    <button type="button" onclick='changeAll("Hello Hai")'>Change All</button>
+</body>
+</html>

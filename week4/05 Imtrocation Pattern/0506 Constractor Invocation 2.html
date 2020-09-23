@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Object</title>
+    <script>
+        function base(){
+            this.value = 500;
+        }
+        var child = new base();// Constructor Invocation
+    </script>
+</head>
+<body>
+    <button type="button" onclick='document.getElementById("oResult").innerHTML = child.value;'>Addition</button>
+    <br><br>
+    <P id="oResult"></P>
+</body>
+</html>

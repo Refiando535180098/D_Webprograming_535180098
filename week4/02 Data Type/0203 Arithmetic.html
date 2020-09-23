@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Introduction</title>
+    <script>
+        function Add(id,inp1,inp2){
+            document.getElementById(id).value = Number(inp1) + Number(inp2);
+        }
+        function Sub(id,inp1,inp2){
+            document.getElementById(id).value = Number(inp1) - Number(inp2);
+        }
+        function Kali(id,inp1,inp2){
+            document.getElementById(id).value = Number(inp1) * Number(inp2);
+        }
+        function Bagi(id,inp1,inp2){
+            document.getElementById(id).value = Number(inp1) / Number(inp2);
+        }
+        function Modulo(id,inp1,inp2){
+            document.getElementById(id).value = Number(inp1) % Number(inp2);
+        }
+        function Pangkat(id,inp1,inp2){
+            document.getElementById(id).value = Number(inp1) ** Number(inp2);
+        }
+    </script>
+</head>
+<body>
+    <input type="number" id="iNumAdd1"/> +
+    <input type="number" id="iNumAdd2"/>
+    <button type="button" 
+        onclick='Add("oResAdd", document.getElementById("iNumAdd1").value, document.getElementById("iNumAdd2").value)'>=</button>
+    <input type="number" id="oResAdd" readonly/>
+    
+    <br><br>
+
+    <input type="number" id="iNumSub1"/> -
+    <input type="number" id="iNumSub2"/>
+    <button type="button" 
+        onclick='Sub("oResSub", document.getElementById("iNumSub1").value, document.getElementById("iNumSub2").value)'>=</button>
+    <input type="number" id="oResSub"/>
+
+    <br><br>
+
+    <input type="number" id="iNumKali1"/> *
+    <input type="number" id="iNumKali2"/>
+    <button type="button" 
+        onclick='Kali("oResKali", document.getElementById("iNumKali1").value, document.getElementById("iNumKali2").value)'>=</button>
+    <input type="number" id="oResKali"/>
+
+    <br><br>
+
+    <input type="number" id="iNumBagi1"/> /
+    <input type="number" id="iNumBagi2"/>
+    <button type="button" 
+        onclick='Bagi("oResBagi", document.getElementById("iNumBagi1").value, document.getElementById("iNumBagi2").value)'>=</button>
+    <input type="number" id="oResBagi"/>
+
+    <br><br>
+
+    <input type="number" id="iNumModulo1"/> %
+    <input type="number" id="iNumModulo2"/>
+    <button type="button" 
+        onclick='Modulo("oResModulo", document.getElementById("iNumModulo1").value, document.getElementById("iNumModulo2").value)'>=</button>
+    <input type="number" id="oResModulo"/>
+    
+    <br><br>
+
+    <input type="number" id="iNumPangkat1"/> ^
+    <input type="number" id="iNumPangkat2"/>
+    <button type="button" 
+        onclick='Pangkat("oResPangkat", document.getElementById("iNumPangkat1").value, document.getElementById("iNumPangkat2").value)'>=</button>
+    <input type="number" id="oResPangkat"/>
+</body>
+</html>

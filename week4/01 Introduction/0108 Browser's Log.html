@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Introduction</title>
+    <style>
+        .Makered {color: red;}
+        .hide {visibility: hidden;}
+        .show {visibility: visible;}
+    </style>
+    <script>
+        function ChangeStyle(pId,pClassName){
+            console.log(pId);
+            console.log(pClassName);
+            document.getElementById(pId).className = pClassName;
+        }
+    </script>
+</head>
+<body>
+    <!-- <button type="button" onclick='ChangeStyle("cLine","Makered")'>Go</button> -->
+    <button type="button" onclick='ChangeStyle("cLine1","Makered")'>Go</button>
+    <p id="cLine1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</body>
+</html>

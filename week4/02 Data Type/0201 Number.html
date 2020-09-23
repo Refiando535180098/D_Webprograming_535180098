@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Introduction</title>
+    <script>
+        function ChangeContent(id,num){
+            var x;
+            x=3;
+            var res = num + x;
+            document.getElementById(id).innerHTML = "3 + " + " = " + res;
+            //document.getElementById(id).innerHTML = "3 + " + " = " + num + 3;
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick='ChangeContent("cLine1",500)'>Go</button>
+    <p id="cLine1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+</body>
+</html>

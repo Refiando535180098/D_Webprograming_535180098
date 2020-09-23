@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Object</title>
+    <script>
+        var Person = {
+            Email:"",
+            NIM: "",
+            Nama: "",
+            Hobbies: [],
+
+            AddBio: function(pEmail,pNIM,pNama){ //method
+                this.Email = pEmail;
+                this.NIM = pNIM;
+                this.Nama = pNama;
+            },
+            AddHobby: function(pHobby){ //method
+                this.pHobby.push(pHobby);
+            },
+            write: function(){ //method
+                var str = "Bio: " + this.Email + ", " + this.NIM + ", " + this.Nama;
+                var hobb = "Hobbies: ";
+                var item;
+                for (item of this.Hobbies){
+                    hobb += item + " ";
+                }
+                return str + " " + hobb;
+            }
+        }
+        function AddBioInfo(pEmail,pNIM,pNama){
+            Person.AddBioInfo(pEmail,pNIM,pNama);
+        }
+        function AddHobby(pHobby){
+            Person.AddHobby(pHobby);
+        }
+        function LoadObject(){
+            document.getElementById(oResult).innerHTML = Person.Write();
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="iEmail" placeholder="Masukan Email"/>
+    <input type="text" id="iNIM" placeholder="Masukan NIM"/>
+    <input type="text" id="iName" placeholder="Masukan Nama"/>
+
+    <button type="button"
+        onclick='CreateObject(
+            document.getElementById("iEmail").value,
+            document.getElementById("iNIM").value,
+            document.getElementById("iName").value)'>Add Bio Info</button>
+    <br><br>
+    <button type="button" onclick='LoadObject()'>Load</button>
+    <br><br>
+    <div id="oResult"></div>
+</body>
+</html>

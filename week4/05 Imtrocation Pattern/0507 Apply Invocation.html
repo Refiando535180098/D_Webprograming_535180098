@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Java Script Object</title>
+    <script>
+        var add = function (num1,num2){
+            return num1 + num2;
+        }
+        function GetResult(){
+            array = [3, 4]; // value untuk parameter
+            return add.apply(null, array); //fungsi apply digunkan untuk melakukan mapping antara array dengan parameter fungsi "add"
+        }
+    </script>
+</head>
+<body>
+    <button type="button" onclick='document.getElementById("oResult").innerHTML = child.value;'>Addition</button>
+    <br><br>
+    <P id="oResult"></P>
+</body>
+</html>
