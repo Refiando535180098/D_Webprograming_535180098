@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript CreateElement Demo</title>
+</head>
+<body>
+    <script>
+        let div = document.createElement('div');
+
+        div.innerHTML = '<p>Contoh CreateElement</p>';
+        document.body.appendChild(div);
+
+        let text = document.createTextNode('CreateElement menggunakanTextNode');
+        div.appendChild(text);
+    </script>
+    <div id="content" class="classcontent"> == $0
+        <p>Contoh CreateElement</p>
+    </div>
+</body>
+</html>
