@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="../Refi/style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script>
+    <title>BR Sport - Highlights</title>
+</head>
+
+<body>
+<!-- Navbar header -->
+<div id = "background">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="Homepage.html">
+                <img src="img/BR Logo.png" width="120" height="120" class="d-inline-block align-top"
+                alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-info font-weight-bold">
+                <li class="nav-item">
+                    <a class="nav-link" href="Homepage.html">
+                        <i data-feather="home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                        <i data-feather="clipboard"></i>
+                        News <span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Homepage.html #transfer">
+                            <i data-feather="refresh-cw"></i>
+                            Transfers
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #injuries">
+                            <i data-feather="activity"></i>
+                            Injuries
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #scoreboard">
+                            <i data-feather="bar-chart-2"></i>
+                            Scoreboard
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Homepage.html #hotnews">
+                            <i data-feather="list"></i>
+                            View all News
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">
+                        <i data-feather="film"></i>
+                        Highlights
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search BR Sport" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                    <i data-feather="search"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+</div>
+<!-- Navbar header -->
+
+<!--basket-->
+<div id="basket">
+    <div class="container">
+        <h1 class="text-left mt-5 mb-5">Highlights</h1>
+        <h1 class="text-center mb-5">NBA</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/lakers.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Lebron James celebrates with teammates.</figcaption>
+                </figure>
+            </div> 
+            <div class="col-md-6 text-justify">
+                <h3>The LA Lakers are 2020 NBA Champions!</h3>
+                <p>The Los Angeles Lakers are champions for the 17th time in franchise history. Los Angeles defeated the Miami Heat 106-93 in Sunday's Game 6 of the 2020 NBA Finals at Walt Disney World Resort, bouncing back from a Game 5 loss.
+                    LeBron James, Anthony Davis and Rajon Rondo spearheaded a balanced effort and defensive showcase in the blowout, helping the Lakers tie the Boston Celtics for the most championships in NBA history.
+                    Bam Adebayo led the way for Miami. While the Heat are surely not interested in moral victories, they still exceeded expectations this season and likely made an impression on potential free agents in reaching the Finals.
+                </p>
+                <p>LeBron knows better than anyone that 3-1 leads in the Finals aren't always safe. After all, he led the Cleveland Cavaliers back from that same deficit against the Golden State Warriors in 2016. He was dialed in from the start Sunday, like he had no interest in being on the other side of such a collapse.
+                    He picked up Jimmy Butler on the Lakers' first defensive possession, found teammates cutting to the hoop on the other end of the floor and went coast-to-coast for a dunk and acrobatic layup in the first quarter.
+                </p>
+                <p>Still, the story was James and Davis. This is what the Lakers had in mind when they traded promising young pieces Lonzo Ball, Josh Hart and Brandon Ingram to the New Orleans Pelicans to pair arguably the best big man in the game with one of the greatest players in history. Whether it was working in pick-and-rolls, suffocating the Miami attack or finding open teammates, the duo had everything working.
+                    The result was LeBron's fourth career ring, Davis' first and a blueprint for more.
+                </p>
+            </div>
+                <p>If it were possible to be in an ideal position trailing a series 3-2, the Heat seemed to find it coming into Sunday.
+                    Role players Duncan Robinson and Kendrick Nunn were excellent in Game 5, and Goran Dragic, who hadn't played since Game 1 because of a torn plantar fascia in his left foot, was active and played. There was also no reason for anything but confidence in Butler after he went toe-to-toe with LeBron in an epic Game 5 battle.
+                </p>
+                <p>The Los Angeles defense set the tone from the beginning, as James aggressively pushed up on Butler, the guards chased Miami's perimeter shooters away from open looks and Davis locked up Adebayo after starting at the 5 with Dwight Howard on the bench.
+                    It surely didn't help that the Heat continued to turn it over and miss free throws, but the versatile Lakers defense and smaller lineup around Davis' stifling interior presence was overpowering.
+                </p>
+                <p>That does nothing to take away from Miami's magical run through the Eastern Conference playoffs and into Game 6 of the Finals. Butler cemented his place as a superstar, the role players shined in key moments, and Erik Spoelstra provided some of the best coaching of his career.
+                    Perhaps this series would have been different if the Heat had remained healthy, but there was no question which side was better with a Lakers team that prides itself on its defense under Frank Vogel erasing all doubt on that end of the floor.
+                </p>
+            <div class="col-md-6 mt-5 text-justify">
+                <h3>The best highlights of the LA Lakers in the 2020 NBA Finals</h3>
+                <p>The LA Lakers successfully defeat the Miami Heat 4-2 to claim the title as the 
+                    world's best basketball team, lifting the Larry O'Brien trophy and silencing
+                    the doubters.
+                </p>
+                <p>In this video you'll see some of the best plays made by Lebron James and co as they
+                    make plays to fight through strong defence and win the title as champions.
+                </p>
+            </div>
+            <div class="col-md-6 mt-5">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/1QGyIGXJi8k" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 text-center">
+                <figure class="figure"></figure>
+                <img src="img/lue.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Tyronn Lue speaking with Patrick Beverly.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 mt-5 text-justify">
+                <h3>Tyronn Lue Reportedly Finalizing 5-Year Contract with Clippers as New Head Coach</h3>
+                <p>Tyronn Lue is reportedly an NBA head coach once again. The Los Angeles Clippers are finalizing a five-year deal with Lue, who led the Cleveland Cavaliers to the 2016 championship, on Thursday, per ESPN's Adrian Wojnarowski.
+                    Brad Turner of the Los Angeles Times reported Clippers players are happy Lue was the choice as next head coach.
+                    Shamss Charania reported for The Athletic that Chauncey Billups will serve as lead assistant while Larry Drew also has a spot on the coaching staff.
+                    This comes after Wojnarowski and Tim MacMahon reported on Tuesday that the notion of Lue going to the Houston Rockets "gathered significant momentum after a meeting with Houston's ownership and management."
+                    The report noted Lue was still in the running for the Clippers job as well, which made sense considering he was an assistant coach for Los Angeles last season.
+                </p>
+                </div>
+                <p>Lue's name was included in coaching rumors before the season even ended, as Marc Stein of the New York Times reported in August that he and Los Angeles Lakers assistant coach Jason Kidd were the "prime candidates" to become the head coach of the New Orleans Pelicans after they fired Alvin Gentry.
+                    Charania of The Athletic and Stadium as well as Wojnarowski both reported Lue was on the short list of candidates for the Philadelphia 76ers after they fired Brett Brown.
+                    Joe Vardon of The Athletic also reported the Rockets could be interested if they elected not to bring back head coach Mike D'Antoni, who ultimately told the Rockets he would not return following the team's loss in the second round of the playoffs.
+                    Brad Turner of the Los Angeles Times reported Lue was a candidate for the Clippers' opening after they parted ways with Doc Rivers.
+                </p>
+                <p>What's more, Vincent Goodwill of Yahoo Sports reported in March that Brooklyn Nets point guard Kyrie Irving wanted Lue as the team's next head coach following the firing of Kenny Atkinson. Lue coached Irving with the Cavaliers during his only head coaching job until this hiring.
+                    The former point guard, who played 11 seasons for the Lakers, Washington Wizards, Orlando Magic, Rockets, Atlanta Hawks, Dallas Mavericks and Milwaukee Bucks, took over for the Cavaliers after they fired David Blatt during the 2015-16 campaign.
+                    All Lue did was lead Cleveland to its first and only championship in franchise history with LeBron James and Irving anchoring the on-court effort. Cleveland went back to the NBA Finals the following two seasons, only to lose to the same Golden State Warriors franchise it defeated in the 2016 Finals.
+                    James left for the Los Angeles Lakers the following offseason, and Lue was fired after the Cavaliers lost their first six games in the 2018-19 campaign.
+                    Still, he amassed an impressive 128-83 record during his tenure and will have a chance to bolster his mark with Los Angeles. Goodwill noted Lue was even in talks to become the Lakers head coach "before discussions broke down," and the job went to Frank Vogel.
+                </p>
+                <p>Lue brings a resume and experience working with some of the biggest stars the league has to offer to another high-profile job now that Los Angeles hired him.
+                    He is in charge of a team with plenty of talent in place with Kawhi Leonard and Paul George as the anchors. Still, the Clippers have been defined by a failure to reach the ultimate level having never even reached the Western Conference Finals.
+                    The 2019-20 campaign was the latest in the list of failures after they blew a 3-1 lead to the Denver Nuggets in the second round of the playoffs.
+                    It will be up to Lue to turn things around and contend for a championship, just like he did in Cleveland.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Basket -->
+
+<!--Bola-->
+<div id="bola">
+    <div class="container">
+        <h1 class="text-center mb-5">Football</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/goldenboy.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Haaland celebrates with Sancho after a goal.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 text-justify">
+                <h3>Sancho and Haaland lead the names on European Golden Boy 2020 final shortlist</h3>
+                <p>Jadon Sancho and Erling Haaland are among the names on the final shortlist for the 2020 European Golden Boy award.
+                    The final 20 nominations for the annual prize distributed by Italian newspaper Tuttosport have been confirmed, with the continent's best player under the age of 21 set to be revealed on December 14.
+                </p>
+                <p>Lionel Messi, Paul Pogba, Kylian Mbappe and Matthijs de Ligt have all won the award in the past, while last year's prize was given to Atletico Madrid's Joao Felix following his breakthrough season at Benfica.
+                    Sancho finished second in the 2019 voting while his Borussia Dortmund team-mate Haaland came in fourth after a prolific start to the 2019-20 campaign at Red Bull Salzburg, which ultimately earned him a move to Westfalenstadion in January.
+                </p>
+            </div>
+                <p>Both men are in contention to win the prize again this time around, with Sancho now reportedly valued at around €120 million (£108m/$140m) after another outstanding year in Germany while Haaland is attracting attention from Real Madrid after scoring 21 goals in his first 23 outings for BVB.
+                    Elsewhere, Barcelona teenager Ansu Fati and Bayern Munich full-back Alphonso Davies have both been nominated for the second time, while Rennes midfielder Eduardo Camavinga has also been included.
+                    Six players have been nominated from the Premier League in total, with Manchester City pair Phil Foden and Ferran Torres making the final cut along with Manchester United's Mason Greenwood, Wolves striker Fabio Silva, Chelsea winger Callum Hudson-Odoi and Arsenal starlet Bukayo Saka.
+                    Barcelona's new signing Sergino Dest has also been named in the final 20, having been rewarded for a bright start to his career at Ajax with a €21 million (£19m/$20m) move to Camp Nou.
+                    Vinicius Junior and Rodrygo are representing Real Madrid in the shortlist, while Juventus midfielder Dejan Kulusevski, Paris Saint-Germain defender Mitchel Bakker, Lille forward Jonathan David, Ajax prospect Ryan Gravenberch, Salzburg's Dominik Szoboszlai, and Milan playmaker Sandro Tonali complete the nominees.
+                    The final winner will be decided by a panel of 40 journalists from across Europe, with a new name set to be carved on the trophy as the next generation of talent continues to emerge.
+                </p>
+                <p>Golden Boy 2020 final nominees in full: Mitchel Bakker - PSG, Eduardo Camavinga - Rennes, Jonathan David - Lille, Alphonso Davies - Bayern Munich, 
+                    Sergino Dest - Barcelona, Fábio Silva  - Wolverhampton, Ansu Fati - Barcelona, Phil Foden - Manchester City, Ryan Gravenberch - Ajax, Mason Greenwood - Manchester United,
+                    Erling Haaland - Borussia Dortmund, Callum Hudson-Odoi - Chelsea, Dejan Kulusevski  - Juventus, Rodrygo - Real Madrid, Bukayo Saka  - Arsenal,
+                    Jason Sancho -  Borussia Dortmund, Dominik Szoboszlai - Red Bull Salzburg, Sandro Tonali  - Milan, Ferrán Torres  - Manchester City, Vinícius Junior - Real Madrid
+                </p>
+            <div class="col-md-6 mt-5 text-justify">
+                <h3>All FC Bayern Champions League Goals 2019/20</h3>
+                <p>With the incredible statistic of 11 wins in 11 games and 43 scored goals, FC Bayern Munich really deserved to win the Champions League title in this season 2019/20.
+                    Enjoy watching all of them - including the Serge Gnabry show against Tottenham Hotspur and Olympique Lyon and the incredible assist of Alphonso Davies against Barcelona in the semi-final.
+                </p>
+            </div>
+            <div class="col-md-6 mt-5">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/PbLwkwgbhTw" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 text-center">
+                <figure class="figure"></figure>
+                <img src="img/ronaldo.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Cristiano Ronaldo playing for Portugal</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 mt-5 text-justify">
+            <h3>Cristiano Ronaldo Tests Positive for COVID-19, Will Self-Isolate</h3>
+            <p>Portugal announced Tuesday that Juventus star Cristiano Ronaldo has tested positive for COVID-19.
+                On Oct. 3, Juventus announced two of its staff members had also tested positive. As a result, all those involved with the club had gone into self-isolation.
+            </p>
+            <p>Portugal had a pair of matches last week, drawing 0-0 with Spain in a friendly and earning the same score in Sunday's UEFA Nations League fixture with France. Ronaldo's positive test will rule him out of Wednesday's Nations League clash with Sweden.
+                Portugal said in Tuesday's statement (h/t ESPN) that no other players had a positive test. Upon the conclusion of the Sweden fixture, Portugal won't be in action again until Nov. 11.
+            </p>
+            </div>
+            <p>Under Italy's COVID-19 protocols, Ronaldo will have to isolate for 10 days. That will rule him out for Saturday's Serie A clash with Crotone and Juve's Champions League opener with Dynamo Kiev on Oct. 20.
+                He could be cleared to return Oct. 25 against Hellas Verona. The five-time Ballon d'Or winner might also be available when Juventus play Lionel Messi and Barcelona in the UEFA Champions League.
+            </p>
+            <p>Juventus have one win and one draw through their first two Serie A matches as they look to claim a 10th straight league title.
+                Juventus were scheduled to play Napoli on Oct. 4, but the latter cited local health recommendations and declined to make the trip to Allianz Stadium. Under league rules, Juve should be awarded a 3-0 victory, a result that isn't yet reflected in the Serie A table.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Bola -->
+
+<!--F1-->
+<div id="f1">
+    <div class="container">
+        <h1 class="text-center mb-5 mt-5">F1</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/lewis.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Lewis Hamilton lifts the helmet given by Mick Schumacher.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 text-justify">
+            <h3>‘Michael is, and always will be, a legend’ – Hamilton 'humbled' to equal Schumacher's win record</h3>
+            <p>When Lewis Hamilton crossed the line to win the Eifel Grand Prix he equalled a record many had thought would never be matched – Michael Schumacher’s tally of 91 Formula 1 victories. And after the race the reigning World Champion paid tribute to the former Ferrari star, saying he felt “humbled” to have drawn level with him on wins in motorsport’s top tier.
+                “It’s not sunk in, that’s for sure,” said Hamilton after winning the race at the Nurburgring by just over four seconds with Max Verstappen second. The Mercedes driver is, of course, also a massive Ayrton Senna fan, and began by saying that following in the Brazilian’s footsteps was his first target when he started his career.
+            </p>
+            <p>“Like all of us I grew up watching Michael win all those Grands Prix and I could not even have fathomed equalling him,” he explained. “Getting to Formula 1 was the first step of the dream and emulating Ayrton.
+                “Michael was just so far ahead, it’s beyond my wildest dreams to think that I’m here today having equalled him and I just feel really humbled by the moment and the opportunity that I was given when I was 13… and feel really proud to continue to represent and to have brought this record to Mercedes.
+            </p>
+            </div>
+            <p>“I think, hopefully, we’ve got more records to break and make but hopefully they know it was a good investment – hopefully,” he added.
+                Now well on his way to equalling another Schumacher record and taking his seventh world championship title, Hamilton stressed just how difficult it is to win at this level – and to stay on top, season after season.
+            </p>
+            <p>“Naturally everyone knows he [Schumacher] is an icon and a legend of the sport," he said. "I think what he achieved in so many areas, but you know pushing the limits in terms of the physicality side, he really was a pioneer of being the fittest driver at the time and what he did at Ferrari… was just remarkable.
+                “And just for me I think that number is so big, and it’s hard for people to perhaps fully understand how hard for him it was to have got those 91 wins, to deliver year on year on year, and stay so in shape and precise – and I understand that now more than ever.
+            </p>
+            <p>“I can only tell you that It doesn’t get easier from your first win to the 91st, I’m telling you, it’s been a long, hard run and I’ve got great drivers around me who I’m enjoying racing. I hope it’s closer between us [in the future]… but yeah, Michael is, and always will be, a legend.
+                “I feel honoured and humbled to have his helmet,” concluded Hamilton, having received a race-worn 2012 Michael Schumacher helmet from the seven-time champion’s son, Mick in an emotional moment at the Nurburgring.
+            </p>
+            <div class="col-md-6 mt-5 text-justify">
+                <h3>2020 Eifel Grand Prix: Race Highlights</h3>
+                <p>This week's F1 race returns to Nurburgring, Germany after 7 years in the Eifel Grand Prix. A very iconic and historic race as we see Lewis Hamilton equal Michael Schumacher's 91 win record. We also see
+                    the comeback of Nico Hulkenberg driving from P20 to finishing in P8. We won't forget Daniel Ricciardo's first podium since 2018.
+                </p>
+            </div>
+            <div class="col-md-6 mt-5">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/2femix89pTE" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 text-center">
+                <figure class="figure"></figure>
+                <img src="img/alonso.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Fernando Alonso preparing for his test drive with Renault</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 mt-5 text-justify">
+                <h3>Alonso says ‘it’s like a new beginning’ as he gets first taste of 2020 Renault in Barcelona test</h3>
+                <p>Fernando Alonso will ramp up his preparations for a sensational return to Formula 1 next season when he tests Renault’s 2020-spec car, the R.S.20, at the Circuit de Barcelona-Catalunya today.
+
+                    The Spanish racer has already begun re-integrating himself into the team with which he won his two F1 world titles – in 2005 and 2006 – and which will be rebranded Alpine next year, spending time at both the Enstone and Viry facilities last month
+
+                </p>
+                <p>
+                    Alonso – who will replace Daniel Ricciardo and partner Esteban Ocon in 2021 – has also been in constant contact with team personnel, including Team Principal Cyril Abiteboul, regarding the current programme and is following each weekend – and their progress – keenly.
+                    He has been pushing to get behind the wheel as soon as possible, but with tight testing restrictions, opportunities are limited.
+                </p>
+            </div>
+                <p>
+                    With the team feeling a Free Practice 1 outing wouldn’t be of much use, they have instead opted to use their second filming day, which allows for 100km of running of the current car on promotional Pirelli tyres, to run the Spaniard.
+
+The test comes 20 years after his first F1 test with Benetton – a team which Renault have their roots in – at the same circuit.
+                </p>
+                <p>
+                    “Returning behind the wheel is going to be an amazing feeling,” said Alonso, ahead of today’s test, which is being run by Renault’s race – rather than test - team. “After two years not driving in Formula 1, I’m really looking forward to it.
+
+“It’s going to be like a new beginning, getting surprised about the speed of the car, the braking performance, the corner speed and a lot of things which will surprise me once again.
+                </p>
+                <p>
+                    It’s very special to be back in Barcelona. I remember my first test with Benetton in the year 2000, it was in Barcelona. It’s going to be at the same circuit 20 years after that first test and it’s going to be one of the last opportunities with a car named after the Renault brand because next year it’s going to change. I feel really privileged, I’m looking forward to it, very excited.
+
+“Preparing for this test was not easy,” Alonso added. “With the Covid restrictions, it was not the normal preparations, not many days in the simulator, but nevertheless, I think we are ready. It’s only 100km, it’s a filming day, so we will try to maximise those laps, try to get some images and some filming.
+
+“I know I will learn and discover a lot of things during those laps. I will take it with a very open approach, try to learn as much as possible in every kilometre.”
+                </p>
+        </div>
+    </div>
+</div>
+<!-- F1 -->
+
+<!-- MotoGP -->
+<div id="motogp">
+    <div class="container">
+        <h1 class="text-center mb-5">MotoGP</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/pettruci.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Danilo Petrucci win at Le Mans</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 text-justify">
+                <h3 id="petruci">Danilo Petrucci masters a wet Le Mans</h3>
+                <p>Mans victory in the French MotoGP for the first time Sunday, while Spaniard Alex Marquez finished second for his first podium in the absence of his illustrious older brother.
+
+                    Spain’s Pol Espargaro finished third while championship leader Fabio Quartararo placed ninth, but the Frenchman extended his lead over Spaniard Joan Mir to 10 points.
+                    
+                    Six-time world champion Marc Marquez, who had won the past two editions, is not competing against his sibling since fracturing his right arm in the season-opening race.
+                </p>
+                <p>The 24-year-old Alex started from 18th and the Honda rider made huge gains late on.
+
+                    But he ran out of time and finished 1.27 seconds behind the Ducati of Petrucci, who mastered the soaking wet conditions well on a drenched Le Mans track for a second career win. Petrucci became the first Ducati rider to win at Le Mans.
+                    
+                    Espargaro was 1.71 seconds behind for KTM.
+                    
+                    Quartararo started from pole position for the third time this season, starting ahead of Ducati’s Jack Miller and Petrucci.
+                    
+                    But after five laps Quartararo dropped down to 11th on a miserable day for Yamaha, which saw seven-time world champion Valentino Rossi crash on Lap 1 of 26.
+                </p>
+            </div>
+                <p>The Italian veteran was chasing a 200th career podium but his race ended on Turn 3 when he went down.
+
+                    Fortunately for Quartararo, the Suzuki of Mir was even further back in 17th after starting from 14th.
+                    
+                    With 10 laps remaining, Italian rider Andrea Dovizioso led from Petrucci and Miller in a Ducati 1-2-3.
+                    
+                    Then Alex Rins made a big push and got into second place, but the Spaniard pushed his Suzuki too hard and went off his bike with seven laps remaining. His crash also caused Miller to fall, and the Australian was visibly angry when he got back to the team garage.
+                    
+                    Dovizioso finished in fourth spot and Mir was 11th.
+                    
+                    British riders Cal Crutchlow and Bradley Smith; Spaniard Tito Rabat and Italian Franco Morbidelli also crashed on a track that stayed slippery throughout.
+                </p>
+                <div class="col-md-6 mt-5 text-justify">
+                    <h3 class="text mt-5 text-md-center">REWIND | Chapter 9: Dancing In The Rain</h3>
+                    <p>Ducati Team's Danilo Petrucci was back on top of the MotoGP™ world after a wet weather masterclass in Le Mans</p>
+                </div>
+                <div class="col-md-6 mt-5">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item"
+                        src="https://www.youtube.com/watch?v=fPtF6xC38bg" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    </div>
+                </div>
+                <div class="col-md-6 mt-5 text-center">
+                    <figure class="figure"></figure>
+                    <img src="img/Joe robert.png" class="img-thumbnail float-left">
+                    <figcaption class="figure-caption">Roberts signs with Italtrans Racing Team for Moto2 in 2021</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-6 mt-5 text-justify">
+                <h3 id="joe robert">Roberts signs with Italtrans Racing Team for Moto2 in 2021</h3>
+                <p>American Joe Roberts will move to the Italtrans Racing Team for the 2021 Moto2™ World Championship. The Californian announced he would be leaving the Tennor American Racing team on Friday afternoon before official confirmation came out later that day that we would be replacing Enea Bastianini in the Italtrans squad, with the Italian moving up to the premier class.
+    
+                    It's been a breakout year for the 23-year-old in 2020 as he announced himself as a regular front runner in the intermediate class. He stole headlines in Qatar at the start of the year with a debut pole position before doing it once more in Brno, as he clinched a career-first Grand Prix podium. Just last weekend in Le Mans, he became the first American since Nicky Hayden in 2005 to bag three pole positions in a season.
+                </p>
+                <p>His exit from the American Racing team all-but confirms the much-rumoured arrival of five-time MotoAmerica Superbike Champion Cameron Beaubier, who looks set to return to Grand Prix racing for the first time since 2009. Roberts will retain his ties with former MotoGP™ rider John Hopkins in 2021 despite his move to Italtrans Racing.
+                </p>
+                </div>
+                <p>Joe Roberts: "I am super excited to be joining the Italtrans Racing Team for the 2021 Moto2 season! I look forward to working with legendary technician Giovanni Sandi and learning everything I can from him, and all of the other high-level technical staff in the team. We have one goal, to win and be a championship contender.
+    
+                    "I’d like to thank everyone at Italtrans for the opportunity to take this important next step in my career with them. For the five remaining rounds of 2020, I will be focused 100% with my guys at the American Racing Team. My job is not done there yet and we will continue to work toward podiums and our first win."
+                </p>
+                <div class="col-md-6 mt-5 text-center">
+                    <figure class="figure"></figure>
+                    <img src="img/enea bastianini.jpg" class="img-thumbnail float-left">
+                    <figcaption class="figure-caption">Enea Bastianini has confirmed he for Ducati MotoGP 2021</figcaption>
+                    </figure>
+                </div>
+                <div class="col-md-6 mt-5 text-justify">
+                <h3 id="enea bastianini">Moto2 frontrunner Enea Bastianini has confirmed he for Ducati MotoGP 2021</h3>
+                <p>Bastianini is currently eight points off the championship lead in Moto2 in just his second season in the intermediate class, and has been linked to a MotoGP step since Andrea Dovizioso’s factory Ducati departure was confirmed last month.</p>
+                <p>It has long been thought Bastianini would join the Avintia squad, which became an official Ducati satellite team for 2019 with the arrival of Johann Zarco. The latter will now either join Pramac in place of Francesco Bagnaia, or be moved directly to the factory squad to replace Dovizioso, while Bagnaia stays at Pramac with full factory support.
+    
+                    During the MotoGP world feed broadcast of FP2, Avintia boss Ruben Xaus confirmed Zarco will be leaving the team at the end of the year and is “99 percent” sure Bastianini will take his place.
+                    
+                    “It’s clear that we were looking to upgrade the situation of the team,” said Xaus. “Things are happening very fast. I thought it was going to be in two years, but suddenly were moving correctly and we got a quicker situation, and in just one year we step up.</p>
+                </div>
+                    <p>“It’s clear for next year that Johann is not going to be with us, I’m very happy for him because he deserves to be on a factory bike with Ducati and it’s clear that for us we have a good spot for the young generation to come up and show good things. We have proved we can really be fast on track, and I’m sure that a young Italian will come in.
+    
+                        “I am 99 percent [sure] that Bastianini will join us next year.”</p>
+                    <p>Bastianini has since confirmed the signing of his Ducati deal, though doesn’t know yet where he will be placed.
+    
+                        “Yeah, I have signed for Ducati,” he revealed. “At the moment I don’t know the team, but I think in the next week – or I don’t know – it will be possible to confirm this.
+                        
+                        “For me it’s really important to be the next year with Ducati, it’s a good family for me, it’s an Italian bike. I think [it will] be possible to be fast in MotoGP, but we will see.”
+                        
+                        Ducati said last month that it would take a decision on its full 2021 line-up ahead of the Misano double-header.
+                        
+                        KTM Moto2 rider Jorge Martin – who has been ruled out of the San Marino GP due to COVID-19 – is set to join Pramac, while current Moto2 points leader and Valentino Rossi’s half-brother Luca Marini has been linked to a Ducati ride.
+                        
+                        Current Avintia rider Tito Rabat is looking less likely to remain in that spot for 2021, with Marini a likely option to replace him.
+                    </p>
+        </div>
+    </div>
+</div>
+<!-- MotoGP -->
+
+<!-- About -->
+<div id="about">
+    <div class="container footer">
+        <div class="row">
+        <div class="col-lg-6 col-md-6 ">
+            <h1><img src="../Refi/img/BR Logo.png" height="180px" width="180px"></h1>
+            <h2>About Us</h2>
+            <p>Welcome to BR Sports! We bring you the latest, most sizzling news from the sports world right to your screens. To inform and enlighten you is our primary motive so you can enjoy the beautiful world of competitive sports. Hut Hut!</p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <h3>All News</h3>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <a href="Bola.html"><h5>Football</h5></a>
+                    <a href="Basket.html"><h5>NBA</h5></a>
+                    <a href="Homepage.html #transfers"><h5>Transfer News</h5></a>
+                    <a href="Homepage.html"><h5>Home</h5></a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <a href="F1.html"><h5>F1</h5></a>
+                    <a href="Motogp.html"><h5>MotoGP</h5></a>
+                    <a href="Homepage.html #injuries"><h5>Injuries</h5></a>
+                </div>
+            </div>
+            <h2>Newsletter Subscription</h2>
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-cotrol" placeholder="Your Email" value="Your Email">
+                <div class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Subribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About -->
+
+<!-- Footer -->
+<div id="footer">
+    <div class="container">
+        <h5 class="text-center">BR Sport © 2020</h5>
+    </div>
+</div>
+<!-- Footer -->
+
+    <script>feather.replace()</script>
+</body>
+
+</html>

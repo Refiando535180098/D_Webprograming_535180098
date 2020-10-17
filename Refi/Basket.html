@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="../Refi/style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script>
+    <title>BR Sport - Basket News</title>
+</head>
+
+<body>
+<!-- Navbar header -->
+<div id = "background">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="Homepage.html">
+                <img src="img/BR Logo.png" width="120" height="120" class="d-inline-block align-top"
+                alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-info font-weight-bold">
+                <li class="nav-item">
+                    <a class="nav-link" href="Homepage.html">
+                        <i data-feather="home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                        <i data-feather="clipboard"></i>
+                        News <span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Homepage.html #transfer">
+                            <i data-feather="refresh-cw"></i>
+                            Transfers
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #injuries">
+                            <i data-feather="activity"></i>
+                            Injuries
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #scoreboard">
+                            <i data-feather="bar-chart-2"></i>
+                            Scoreboard
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Homepage.html #hotnews">
+                            <i data-feather="list"></i>
+                            View all News
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">
+                        <i data-feather="film"></i>
+                        Highlights
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search BR Sport" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                    <i data-feather="search"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+</div>
+<!-- Navbar header -->
+
+<!--basket-->
+<div id="basket">
+    <div class="container">
+        <h1 class="text-center mt-5 mb-5">NBA</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/lakers.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Lebron James celebrates with teammates.</figcaption>
+                </figure>
+            </div> 
+            <div class="col-md-6 text-justify">
+                <h3 id="lakers">The LA Lakers are 2020 NBA Champions!</h3>
+                <p>The Los Angeles Lakers are champions for the 17th time in franchise history. Los Angeles defeated the Miami Heat 106-93 in Sunday's Game 6 of the 2020 NBA Finals at Walt Disney World Resort, bouncing back from a Game 5 loss.
+                    LeBron James, Anthony Davis and Rajon Rondo spearheaded a balanced effort and defensive showcase in the blowout, helping the Lakers tie the Boston Celtics for the most championships in NBA history.
+                    Bam Adebayo led the way for Miami. While the Heat are surely not interested in moral victories, they still exceeded expectations this season and likely made an impression on potential free agents in reaching the Finals.
+                </p>
+                <p>LeBron knows better than anyone that 3-1 leads in the Finals aren't always safe. After all, he led the Cleveland Cavaliers back from that same deficit against the Golden State Warriors in 2016. He was dialed in from the start Sunday, like he had no interest in being on the other side of such a collapse.
+                    He picked up Jimmy Butler on the Lakers' first defensive possession, found teammates cutting to the hoop on the other end of the floor and went coast-to-coast for a dunk and acrobatic layup in the first quarter.
+                </p>
+                <p>Still, the story was James and Davis. This is what the Lakers had in mind when they traded promising young pieces Lonzo Ball, Josh Hart and Brandon Ingram to the New Orleans Pelicans to pair arguably the best big man in the game with one of the greatest players in history. Whether it was working in pick-and-rolls, suffocating the Miami attack or finding open teammates, the duo had everything working.
+                    The result was LeBron's fourth career ring, Davis' first and a blueprint for more.
+                </p>
+            </div>
+                <p>If it were possible to be in an ideal position trailing a series 3-2, the Heat seemed to find it coming into Sunday.
+                    Role players Duncan Robinson and Kendrick Nunn were excellent in Game 5, and Goran Dragic, who hadn't played since Game 1 because of a torn plantar fascia in his left foot, was active and played. There was also no reason for anything but confidence in Butler after he went toe-to-toe with LeBron in an epic Game 5 battle.
+                </p>
+                <p>The Los Angeles defense set the tone from the beginning, as James aggressively pushed up on Butler, the guards chased Miami's perimeter shooters away from open looks and Davis locked up Adebayo after starting at the 5 with Dwight Howard on the bench.
+                    It surely didn't help that the Heat continued to turn it over and miss free throws, but the versatile Lakers defense and smaller lineup around Davis' stifling interior presence was overpowering.
+                </p>
+                <p>That does nothing to take away from Miami's magical run through the Eastern Conference playoffs and into Game 6 of the Finals. Butler cemented his place as a superstar, the role players shined in key moments, and Erik Spoelstra provided some of the best coaching of his career.
+                    Perhaps this series would have been different if the Heat had remained healthy, but there was no question which side was better with a Lakers team that prides itself on its defense under Frank Vogel erasing all doubt on that end of the floor.
+                </p>
+            <div class="col-md-6 mt-5 text-justify">
+                <h3>The best highlights of the LA Lakers in the 2020 NBA Finals</h3>
+                <p>The LA Lakers successfully defeat the Miami Heat 4-2 to claim the title as the 
+                    world's best basketball team, lifting the Larry O'Brien trophy and silencing
+                    the doubters.
+                </p>
+                <p>In this video you'll see some of the best plays made by Lebron James and co as they
+                    make plays to fight through strong defence and win the title as champions.
+                </p>
+            </div>
+            <div class="col-md-6 mt-5">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/1QGyIGXJi8k" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; 
+                    gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 mt-5 text-center">
+                <figure class="figure"></figure>
+                <img src="img/lue.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Tyronn Lue speaking with Patrick Beverly.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 mt-5 text-justify">
+                <h3 id="tyronn">Tyronn Lue Reportedly Finalizing 5-Year Contract with Clippers as New Head Coach</h3>
+                <p>Tyronn Lue is reportedly an NBA head coach once again. The Los Angeles Clippers are finalizing a five-year deal with Lue, who led the Cleveland Cavaliers to the 2016 championship, on Thursday, per ESPN's Adrian Wojnarowski.
+                    Brad Turner of the Los Angeles Times reported Clippers players are happy Lue was the choice as next head coach.
+                    Shamss Charania reported for The Athletic that Chauncey Billups will serve as lead assistant while Larry Drew also has a spot on the coaching staff.
+                    This comes after Wojnarowski and Tim MacMahon reported on Tuesday that the notion of Lue going to the Houston Rockets "gathered significant momentum after a meeting with Houston's ownership and management."
+                    The report noted Lue was still in the running for the Clippers job as well, which made sense considering he was an assistant coach for Los Angeles last season.
+                </p>
+                </div>
+                <p>Lue's name was included in coaching rumors before the season even ended, as Marc Stein of the New York Times reported in August that he and Los Angeles Lakers assistant coach Jason Kidd were the "prime candidates" to become the head coach of the New Orleans Pelicans after they fired Alvin Gentry.
+                    Charania of The Athletic and Stadium as well as Wojnarowski both reported Lue was on the short list of candidates for the Philadelphia 76ers after they fired Brett Brown.
+                    Joe Vardon of The Athletic also reported the Rockets could be interested if they elected not to bring back head coach Mike D'Antoni, who ultimately told the Rockets he would not return following the team's loss in the second round of the playoffs.
+                    Brad Turner of the Los Angeles Times reported Lue was a candidate for the Clippers' opening after they parted ways with Doc Rivers.
+                </p>
+                <p>What's more, Vincent Goodwill of Yahoo Sports reported in March that Brooklyn Nets point guard Kyrie Irving wanted Lue as the team's next head coach following the firing of Kenny Atkinson. Lue coached Irving with the Cavaliers during his only head coaching job until this hiring.
+                    The former point guard, who played 11 seasons for the Lakers, Washington Wizards, Orlando Magic, Rockets, Atlanta Hawks, Dallas Mavericks and Milwaukee Bucks, took over for the Cavaliers after they fired David Blatt during the 2015-16 campaign.
+                    All Lue did was lead Cleveland to its first and only championship in franchise history with LeBron James and Irving anchoring the on-court effort. Cleveland went back to the NBA Finals the following two seasons, only to lose to the same Golden State Warriors franchise it defeated in the 2016 Finals.
+                    James left for the Los Angeles Lakers the following offseason, and Lue was fired after the Cavaliers lost their first six games in the 2018-19 campaign.
+                    Still, he amassed an impressive 128-83 record during his tenure and will have a chance to bolster his mark with Los Angeles. Goodwill noted Lue was even in talks to become the Lakers head coach "before discussions broke down," and the job went to Frank Vogel.
+                </p>
+                <p>Lue brings a resume and experience working with some of the biggest stars the league has to offer to another high-profile job now that Los Angeles hired him.
+                    He is in charge of a team with plenty of talent in place with Kawhi Leonard and Paul George as the anchors. Still, the Clippers have been defined by a failure to reach the ultimate level having never even reached the Western Conference Finals.
+                    The 2019-20 campaign was the latest in the list of failures after they blew a 3-1 lead to the Denver Nuggets in the second round of the playoffs.
+                    It will be up to Lue to turn things around and contend for a championship, just like he did in Cleveland.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Basket -->
+
+<!-- About -->
+<div id="about">
+    <div class="container footer">
+        <div class="row">
+        <div class="col-lg-6 col-md-6 ">
+            <h1><img src="../Refi/img/BR Logo.png" height="180px" width="180px"></h1>
+            <h2>About Us</h2>
+            <p>Welcome to BR Sports! We bring you the latest, most sizzling news from the sports world right to your screens. To inform and enlighten you is our primary motive so you can enjoy the beautiful world of competitive sports. Hut Hut!</p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <h3>All News</h3>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <a href="Bola.html"><h5>Football</h5></a>
+                    <a href="Basket.html"><h5>NBA</h5></a>
+                    <a href="Homepage.html #transfers"><h5>Transfer News</h5></a>
+                    <a href="Homepage.html"><h5>Home</h5></a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <a href="F1.html"><h5>F1</h5></a>
+                    <a href="Motogp.html"><h5>MotoGP</h5></a>
+                    <a href="Homepage.html #injuries"><h5>Injuries</h5></a>
+                </div>
+            </div>
+            <h2>Newsletter Subscription</h2>
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-cotrol" placeholder="Your Email" value="Your Email">
+                <div class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Subribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About -->
+
+<!-- Footer -->
+<div id="footer">
+    <div class="container">
+        <h5 class="text-center">BR Sport © 2020</h5>
+    </div>
+</div>
+<!-- Footer -->
+
+    <script>feather.replace()</script>
+</body>
+
+</html>

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="../Refi/style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script>
+    <title>BR Sport - Bola News</title>
+</head>
+
+<body>
+<!-- Navbar header -->
+<div id = "background">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="Homepage.html">
+                <img src="img/BR Logo.png" width="120" height="120" class="d-inline-block align-top"
+                alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-info font-weight-bold">
+                <li class="nav-item">
+                    <a class="nav-link" href="Homepage.html">
+                        <i data-feather="home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                        <i data-feather="clipboard"></i>
+                        News <span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Homepage.html #transfer">
+                            <i data-feather="refresh-cw"></i>
+                            Transfers
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #injuries">
+                            <i data-feather="activity"></i>
+                            Injuries
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #scoreboard">
+                            <i data-feather="bar-chart-2"></i>
+                            Scoreboard
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Homepage.html #hotnews">
+                            <i data-feather="list"></i>
+                            View all News
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Highlight page.html">
+                        <i data-feather="film"></i>
+                        Highlights
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search BR Sport" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                    <i data-feather="search"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+</div>
+<!-- Navbar header -->
+
+<!--Bola-->
+<div id="bola">
+    <div class="container">
+        <h1 class="text-center mt-5 mb-5">Football</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/goldenboy.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Haaland celebrates with Sancho after a goal.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 text-justify">
+                <h3 id="sancho">Sancho and Haaland lead the names on European Golden Boy 2020 final shortlist</h3>
+                <p>Jadon Sancho and Erling Haaland are among the names on the final shortlist for the 2020 European Golden Boy award.
+                    The final 20 nominations for the annual prize distributed by Italian newspaper Tuttosport have been confirmed, with the continent's best player under the age of 21 set to be revealed on December 14.
+                </p>
+                <p>Lionel Messi, Paul Pogba, Kylian Mbappe and Matthijs de Ligt have all won the award in the past, while last year's prize was given to Atletico Madrid's Joao Felix following his breakthrough season at Benfica.
+                    Sancho finished second in the 2019 voting while his Borussia Dortmund team-mate Haaland came in fourth after a prolific start to the 2019-20 campaign at Red Bull Salzburg, which ultimately earned him a move to Westfalenstadion in January.
+                </p>
+            </div>
+                <p>Both men are in contention to win the prize again this time around, with Sancho now reportedly valued at around €120 million (£108m/$140m) after another outstanding year in Germany while Haaland is attracting attention from Real Madrid after scoring 21 goals in his first 23 outings for BVB.
+                    Elsewhere, Barcelona teenager Ansu Fati and Bayern Munich full-back Alphonso Davies have both been nominated for the second time, while Rennes midfielder Eduardo Camavinga has also been included.
+                    Six players have been nominated from the Premier League in total, with Manchester City pair Phil Foden and Ferran Torres making the final cut along with Manchester United's Mason Greenwood, Wolves striker Fabio Silva, Chelsea winger Callum Hudson-Odoi and Arsenal starlet Bukayo Saka.
+                    Barcelona's new signing Sergino Dest has also been named in the final 20, having been rewarded for a bright start to his career at Ajax with a €21 million (£19m/$20m) move to Camp Nou.
+                    Vinicius Junior and Rodrygo are representing Real Madrid in the shortlist, while Juventus midfielder Dejan Kulusevski, Paris Saint-Germain defender Mitchel Bakker, Lille forward Jonathan David, Ajax prospect Ryan Gravenberch, Salzburg's Dominik Szoboszlai, and Milan playmaker Sandro Tonali complete the nominees.
+                    The final winner will be decided by a panel of 40 journalists from across Europe, with a new name set to be carved on the trophy as the next generation of talent continues to emerge.
+                </p>
+                <p>Golden Boy 2020 final nominees in full: Mitchel Bakker - PSG, Eduardo Camavinga - Rennes, Jonathan David - Lille, Alphonso Davies - Bayern Munich, 
+                    Sergino Dest - Barcelona, Fábio Silva  - Wolverhampton, Ansu Fati - Barcelona, Phil Foden - Manchester City, Ryan Gravenberch - Ajax, Mason Greenwood - Manchester United,
+                    Erling Haaland - Borussia Dortmund, Callum Hudson-Odoi - Chelsea, Dejan Kulusevski  - Juventus, Rodrygo - Real Madrid, Bukayo Saka  - Arsenal,
+                    Jason Sancho -  Borussia Dortmund, Dominik Szoboszlai - Red Bull Salzburg, Sandro Tonali  - Milan, Ferrán Torres  - Manchester City, Vinícius Junior - Real Madrid
+                </p>
+            <div class="col-md-6 text-justify">
+                <h3>All FC Bayern Champions League Goals 2019/20</h3>
+                <p>With the incredible statistic of 11 wins in 11 games and 43 scored goals, FC Bayern Munich really deserved to win the Champions League title in this season 2019/20.
+                    Enjoy watching all of them - including the Serge Gnabry show against Tottenham Hotspur and Olympique Lyon and the incredible assist of Alphonso Davies against Barcelona in the semi-final.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item"
+                    src="https://www.youtube.com/embed/PbLwkwgbhTw" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/ronaldo.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Cristiano Ronaldo playing for Portugal</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 text-justify">
+            <h3 id="ronaldo">Cristiano Ronaldo Tests Positive for COVID-19, Will Self-Isolate</h3>
+            <p>Portugal announced Tuesday that Juventus star Cristiano Ronaldo has tested positive for COVID-19.
+                On Oct. 3, Juventus announced two of its staff members had also tested positive. As a result, all those involved with the club had gone into self-isolation.
+            </p>
+            <p>Portugal had a pair of matches last week, drawing 0-0 with Spain in a friendly and earning the same score in Sunday's UEFA Nations League fixture with France. Ronaldo's positive test will rule him out of Wednesday's Nations League clash with Sweden.
+                Portugal said in Tuesday's statement (h/t ESPN) that no other players had a positive test. Upon the conclusion of the Sweden fixture, Portugal won't be in action again until Nov. 11.
+            </p>
+            </div>
+            <p>Under Italy's COVID-19 protocols, Ronaldo will have to isolate for 10 days. That will rule him out for Saturday's Serie A clash with Crotone and Juve's Champions League opener with Dynamo Kiev on Oct. 20.
+                He could be cleared to return Oct. 25 against Hellas Verona. The five-time Ballon d'Or winner might also be available when Juventus play Lionel Messi and Barcelona in the UEFA Champions League.
+            </p>
+            <p>Juventus have one win and one draw through their first two Serie A matches as they look to claim a 10th straight league title.
+                Juventus were scheduled to play Napoli on Oct. 4, but the latter cited local health recommendations and declined to make the trip to Allianz Stadium. Under league rules, Juve should be awarded a 3-0 victory, a result that isn't yet reflected in the Serie A table.
+            </p>
+        </div>
+    </div>
+</div>
+<!-- Bola -->
+
+<!-- About -->
+<div id="about">
+    <div class="container footer">
+        <div class="row">
+        <div class="col-lg-6 col-md-6 ">
+            <h1><img src="../Refi/img/BR Logo.png" height="180px" width="180px"></h1>
+            <h2>About Us</h2>
+            <p>Welcome to BR Sports! We bring you the latest, most sizzling news from the sports world right to your screens. To inform and enlighten you is our primary motive so you can enjoy the beautiful world of competitive sports. Hut Hut!</p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <h3>All News</h3>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <a href="Bola.html"><h5>Football</h5></a>
+                    <a href="Basket.html"><h5>NBA</h5></a>
+                    <a href="Homepage.html #transfers"><h5>Transfer News</h5></a>
+                    <a href="Homepage.html"><h5>Home</h5></a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <a href="F1.html"><h5>F1</h5></a>
+                    <a href="Motogp.html"><h5>MotoGP</h5></a>
+                    <a href="Homepage.html #injuries"><h5>Injuries</h5></a>
+                </div>
+            </div>
+            <h2>Newsletter Subscription</h2>
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-cotrol" placeholder="Your Email" value="Your Email">
+                <div class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Subribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About -->
+
+<!-- Footer -->
+<div id="footer">
+    <div class="container">
+        <h5 class="text-center">BR Sport © 2020</h5>
+    </div>
+</div>
+<!-- Footer -->
+
+    <script>feather.replace()</script>
+</body>
+
+</html>

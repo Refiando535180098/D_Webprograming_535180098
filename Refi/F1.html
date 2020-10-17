@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.css">
+    <link rel="stylesheet" href="../Refi/style.css">
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+        
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+    integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+    crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script src="https://unpkg.com/bootstrap-table@1.17.1/dist/bootstrap-table.min.js"></script>
+    <title>BR Sport - F1 News</title>
+</head>
+
+<body>
+<!-- Navbar header -->
+<div id = "background">
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="Homepage.html">
+                <img src="img/BR Logo.png" width="120" height="120" class="d-inline-block align-top"
+                alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto navbar-info font-weight-bold">
+                <li class="nav-item">
+                    <a class="nav-link" href="Homepage.html">
+                        <i data-feather="home"></i>
+                        Home
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" >
+                        <i data-feather="clipboard"></i>
+                        News <span class="sr-only">(current)</span>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="Homepage.html #transfer">
+                            <i data-feather="refresh-cw"></i>
+                            Transfers
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #injuries">
+                            <i data-feather="activity"></i>
+                            Injuries
+                        </a>
+                        <a class="dropdown-item" href="Homepage.html #scoreboard">
+                            <i data-feather="bar-chart-2"></i>
+                            Scoreboard
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="Homepage.html #hotnews">
+                            <i data-feather="list"></i>
+                            View all News
+                        </a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Highlight page.html">
+                        <i data-feather="film"></i>
+                        Highlights
+                    </a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search BR Sport" aria-label="Search">
+                <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">
+                    <i data-feather="search"></i>
+                </button>
+            </form>
+        </div>
+    </nav>
+</div>
+<!-- Navbar header -->
+
+<!--F1-->
+<div id="f1">
+    <div class="container">
+        <h1 class="text-center mt-5 mb-5">F1</h1>
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/lewis.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Lewis Hamilton lifts the helmet given by Mick Schumacher.</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 text-justify">
+            <h3 id="lewis">‘Michael is, and always will be, a legend’ – Hamilton 'humbled' to equal Schumacher's win record</h3>
+            <p>When Lewis Hamilton crossed the line to win the Eifel Grand Prix he equalled a record many had thought would never be matched – Michael Schumacher’s tally of 91 Formula 1 victories. And after the race the reigning World Champion paid tribute to the former Ferrari star, saying he felt “humbled” to have drawn level with him on wins in motorsport’s top tier.
+                “It’s not sunk in, that’s for sure,” said Hamilton after winning the race at the Nurburgring by just over four seconds with Max Verstappen second. The Mercedes driver is, of course, also a massive Ayrton Senna fan, and began by saying that following in the Brazilian’s footsteps was his first target when he started his career.
+            </p>
+            <p>“Like all of us I grew up watching Michael win all those Grands Prix and I could not even have fathomed equalling him,” he explained. “Getting to Formula 1 was the first step of the dream and emulating Ayrton.
+                “Michael was just so far ahead, it’s beyond my wildest dreams to think that I’m here today having equalled him and I just feel really humbled by the moment and the opportunity that I was given when I was 13… and feel really proud to continue to represent and to have brought this record to Mercedes.
+            </p>
+            </div>
+            <p>“I think, hopefully, we’ve got more records to break and make but hopefully they know it was a good investment – hopefully,” he added.
+                Now well on his way to equalling another Schumacher record and taking his seventh world championship title, Hamilton stressed just how difficult it is to win at this level – and to stay on top, season after season.
+            </p>
+            <p>“Naturally everyone knows he [Schumacher] is an icon and a legend of the sport," he said. "I think what he achieved in so many areas, but you know pushing the limits in terms of the physicality side, he really was a pioneer of being the fittest driver at the time and what he did at Ferrari… was just remarkable.
+                “And just for me I think that number is so big, and it’s hard for people to perhaps fully understand how hard for him it was to have got those 91 wins, to deliver year on year on year, and stay so in shape and precise – and I understand that now more than ever.
+            </p>
+            <p>“I can only tell you that It doesn’t get easier from your first win to the 91st, I’m telling you, it’s been a long, hard run and I’ve got great drivers around me who I’m enjoying racing. I hope it’s closer between us [in the future]… but yeah, Michael is, and always will be, a legend.
+                “I feel honoured and humbled to have his helmet,” concluded Hamilton, having received a race-worn 2012 Michael Schumacher helmet from the seven-time champion’s son, Mick in an emotional moment at the Nurburgring.
+            </p>
+            <div class="col-md-6 text-justify">
+                <h3>2020 Eifel Grand Prix: Race Highlights</h3>
+                <p>This week's F1 race returns to Nurburgring, Germany after 7 years in the Eifel Grand Prix. A very iconic and historic race as we see Lewis Hamilton equal Michael Schumacher's 91 win record. We also see
+                    the comeback of Nico Hulkenberg driving from P20 to finishing in P8. We won't forget Daniel Ricciardo's first podium since 2018.
+                </p>
+            </div>
+            <div class="col-md-6">
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" 
+                    src="https://www.youtube.com/embed/2femix89pTE" frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                    allowfullscreen></iframe>
+                </div>
+            </div>
+            <div class="col-md-6 text-center">
+                <figure class="figure"></figure>
+                <img src="img/alonso.jpg" class="img-thumbnail float-left">
+                <figcaption class="figure-caption">Fernando Alonso preparing for his test drive with Renault</figcaption>
+                </figure>
+            </div>
+            <div class="col-md-6 text-justify">
+                <h3 id="alonso">Alonso says ‘it’s like a new beginning’ as he gets first taste of 2020 Renault in Barcelona test</h3>
+                <p>Fernando Alonso will ramp up his preparations for a sensational return to Formula 1 next season when he tests Renault’s 2020-spec car, the R.S.20, at the Circuit de Barcelona-Catalunya today.
+                    The Spanish racer has already begun re-integrating himself into the team with which he won his two F1 world titles – in 2005 and 2006 – and which will be rebranded Alpine next year, spending time at both the Enstone and Viry facilities last month
+                </p>
+                <p>Alonso – who will replace Daniel Ricciardo and partner Esteban Ocon in 2021 – has also been in constant contact with team personnel, including Team Principal Cyril Abiteboul, regarding the current programme and is following each weekend – and their progress – keenly.
+                    He has been pushing to get behind the wheel as soon as possible, but with tight testing restrictions, opportunities are limited.
+                </p>
+            </div>
+                <p>With the team feeling a Free Practice 1 outing wouldn’t be of much use, they have instead opted to use their second filming day, which allows for 100km of running of the current car on promotional Pirelli tyres, to run the Spaniard.
+                    The test comes 20 years after his first F1 test with Benetton – a team which Renault have their roots in – at the same circuit.
+                </p>
+                <p>“Returning behind the wheel is going to be an amazing feeling,” said Alonso, ahead of today’s test, which is being run by Renault’s race – rather than test - team. “After two years not driving in Formula 1, I’m really looking forward to it.
+                    “It’s going to be like a new beginning, getting surprised about the speed of the car, the braking performance, the corner speed and a lot of things which will surprise me once again.
+                </p>
+                <p>It’s very special to be back in Barcelona. I remember my first test with Benetton in the year 2000, it was in Barcelona. It’s going to be at the same circuit 20 years after that first test and it’s going to be one of the last opportunities with a car named after the Renault brand because next year it’s going to change. I feel really privileged, I’m looking forward to it, very excited.
+                    “Preparing for this test was not easy,” Alonso added. “With the Covid restrictions, it was not the normal preparations, not many days in the simulator, but nevertheless, I think we are ready. It’s only 100km, it’s a filming day, so we will try to maximise those laps, try to get some images and some filming.
+                    “I know I will learn and discover a lot of things during those laps. I will take it with a very open approach, try to learn as much as possible in every kilometre.”
+                </p>
+        </div>
+    </div>
+</div>
+<!-- F1 -->
+
+<!-- About -->
+<div id="about">
+    <div class="container footer">
+        <div class="row">
+        <div class="col-lg-6 col-md-6 ">
+            <h1><img src="../Refi/img/BR Logo.png" height="180px" width="180px"></h1>
+            <h2>About Us</h2>
+            <p>Welcome to BR Sports! We bring you the latest, most sizzling news from the sports world right to your screens. To inform and enlighten you is our primary motive so you can enjoy the beautiful world of competitive sports. Hut Hut!</p>
+        </div>
+        <div class="col-lg-6 col-md-6">
+            <h3>All News</h3>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <a href="Bola.html"><h5>Football</h5></a>
+                    <a href="Basket.html"><h5>NBA</h5></a>
+                    <a href="Homepage.html #transfers"><h5>Transfer News</h5></a>
+                    <a href="Homepage.html"><h5>Home</h5></a>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <a href="F1.html"><h5>F1</h5></a>
+                    <a href="Motogp.html"><h5>MotoGP</h5></a>
+                    <a href="Homepage.html #injuries"><h5>Injuries</h5></a>
+                </div>
+            </div>
+            <h2>Newsletter Subscription</h2>
+            <div class="input-group input-group-lg">
+                <input type="text" class="form-cotrol" placeholder="Your Email" value="Your Email">
+                <div class="input-group-btn">
+                    <button class="btn btn-primary" type="submit">Subribe</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About -->
+
+<!-- Footer -->
+<div id="footer">
+    <div class="container">
+        <h5 class="text-center">BR Sport © 2020</h5>
+    </div>
+</div>
+<!-- Footer -->
+
+    <script>feather.replace()</script>
+</body>
+
+</html>
