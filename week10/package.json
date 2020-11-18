@@ -1,0 +1,20 @@
+{
+  "name": "package-lock",
+  "version": "1.0.0",
+  "description": "for web",
+  "main": "yes",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ref"
+  },
+  "keywords": [
+    "login"
+  ],
+  "author": "ref",
+  "license": "UNLICENSED"
+}
